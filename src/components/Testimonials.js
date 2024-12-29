@@ -5,10 +5,10 @@ import {motion} from "framer-motion"
 function Testimonials() {
   return (
     <motion.div
-    initial={{opacity: 0, x:200}}
-    transition={{duration: 2}}
-    whileInView={{opacity: 1, x:0}}
-    viewport={{once: true}}
+    initial={{ opacity: 0, y: 10 }}
+    transition={{ duration: 2 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
     className='container mx-auto py-10 lg:px-42 w-full overflow-hidden' id='Testimonials'>
         <h1
         className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Customer 

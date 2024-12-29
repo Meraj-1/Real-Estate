@@ -5,10 +5,10 @@ import {motion} from "framer-motion"
 const About = () => {
   return (
     <motion.div
-    initial={{opacity: 0, x:100}}
-    transition={{duration: 1.5}}
-    whileInView={{opacity: 1, x:0}}
-    viewport={{once: true}}
+    initial={{ opacity: 0, y: 10 }}
+    transition={{ duration: 2 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="About"
     >

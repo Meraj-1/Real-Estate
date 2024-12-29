@@ -27,7 +27,7 @@ return()=> {
       <button className="hidden md:block bg:white px-8 py-2 rounded-full bg-white"> Sign Up</button>
       <img onClick={() => setshowMobileMenu(true)} src={assets.menu_icon} className="md:hidden w-7" alt="" />
       </div>
-      <div className={`md:hidden ${showMobileMenu ?" fixed w-full" : "h-0 w-0" }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}>
+      <div className={`lg:hidden ${showMobileMenu ?" fixed w-full" : "h-0 w-0" }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}>
         <div className="flex justify-end p-6"><img onClick={() => setshowMobileMenu(false)} className="w-6 " src={assets.cross_icon}/></div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
           <a onClick={() => setshowMobileMenu(false)} href="#Home" className="px-4 py-2 rounded-full inline-block" >Home</a>
